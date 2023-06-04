@@ -2,20 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yingxue-commons" />
+        <module name="yingxue-gatetway" />
+        <module name="yingxue-admins" />
+        <module name="yingxue-users" />
+        <module name="yingxue-videos" />
         <module name="yingxue-category" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yingxue-admin" options="" />
+      <module name="yingxue-admins" options="-parameters" />
       <module name="yingxue-category" options="-parameters" />
       <module name="yingxue-commons" options="-parameters" />
-      <module name="yinxue-admin" options="" />
+      <module name="yingxue-gatetway" options="-parameters" />
+      <module name="yingxue-users" options="-parameters" />
+      <module name="yingxue-videos" options="-parameters" />
     </option>
   </component>
 </project>

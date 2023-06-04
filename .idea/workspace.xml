@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="5.30">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-admins/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/AdminAdminsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/AdminCategoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-commons/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/AdminUsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-videos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/AdminVideosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yinxue-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yingxue-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.8.7" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="B:\Maven\apache-maven-3.8.7\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2QTNDa6Do9Ilw8Tekr3GnhNEBFd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "B:/code/yingxue-admin/yingxue-videos/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\resources" />
+      <recent name="B:\code\yingxue-admin\yingxue-users\src\main\resources" />
+      <recent name="B:\code\yingxue-admin\yingxue-gatetway\src\main\resources" />
+      <recent name="B:\code\yingxue-admin\yingxue-commons\src\main\resources" />
+      <recent name="B:\code\yingxue-admin\yingxue-category\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminVideosApplication">
+    <configuration name="AdminAdminsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
+      <module name="yingxue-admins" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminAdminsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminCategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
+      <module name="yingxue-category" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminCategoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
+      <module name="yingxue-users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminUsersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminVideosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
+      <module name="yingxue-videos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminVideosApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminAdminsApplication" />
+      <item itemvalue="Spring Boot.AdminCategoryApplication" />
+      <item itemvalue="Spring Boot.AdminUsersApplication" />
+      <item itemvalue="Spring Boot.AdminVideosApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdminCategoryApplication" />
+        <item itemvalue="Spring Boot.AdminVideosApplication" />
+        <item itemvalue="Spring Boot.AdminUsersApplication" />
+        <item itemvalue="Spring Boot.AdminAdminsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="" />
+      <created>1685373494250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685373494250</updated>
+      <workItem from="1685373495690" duration="17000" />
+      <workItem from="1685373536751" duration="1963000" />
+      <workItem from="1685783442940" duration="37000" />
+      <workItem from="1685889212057" duration="4210000" />
+    </task>
+    <task id="LOCAL-00001" summary="5.30">
+      <created>1685376092745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685376092745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5.30" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.30" />
+  </component>
+</project>
