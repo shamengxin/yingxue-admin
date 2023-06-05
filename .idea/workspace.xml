@@ -4,33 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="5.30">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-admins/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/AdminAdminsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/AdminCategoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-commons/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/AdminUsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/AdminVideosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yinxue-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yingxue-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/pom.xml" afterDir="false" />
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.4">
+      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/AdminGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +72,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "B:/code/yingxue-admin/yingxue-videos/src/main/resources",
+    "last_opened_file_path": "B:/code/yingxue-admin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,16 +82,17 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "f5d8a4143d800761d30090d6dcc0d7be",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\code\yingxue-admin" />
+      <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\java\com\shamengxin" />
+      <recent name="B:\code\yingxue-admin\yingxue-users\src\main\java\com\shamengxin" />
+      <recent name="B:\code\yingxue-admin\yingxue-category\src\main\java\com\shamengxin" />
       <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\resources" />
-      <recent name="B:\code\yingxue-admin\yingxue-users\src\main\resources" />
-      <recent name="B:\code\yingxue-admin\yingxue-gatetway\src\main\resources" />
-      <recent name="B:\code\yingxue-admin\yingxue-commons\src\main\resources" />
-      <recent name="B:\code\yingxue-admin\yingxue-category\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminVideosApplication">
+  <component name="RunManager" selected="Spring Boot.AdminGatewayApplication">
     <configuration name="AdminAdminsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
       <module name="yingxue-admins" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminAdminsApplication" />
@@ -133,6 +119,19 @@
     <configuration name="AdminCategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
       <module name="yingxue-category" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminCategoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="admin" temporary="true" nameIsGenerated="true">
+      <module name="yingxue-gatetway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.AdminGatewayApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shamengxin.*" />
@@ -174,9 +173,11 @@
       <item itemvalue="Spring Boot.AdminCategoryApplication" />
       <item itemvalue="Spring Boot.AdminUsersApplication" />
       <item itemvalue="Spring Boot.AdminVideosApplication" />
+      <item itemvalue="Spring Boot.AdminGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.AdminCategoryApplication" />
         <item itemvalue="Spring Boot.AdminVideosApplication" />
         <item itemvalue="Spring Boot.AdminUsersApplication" />
@@ -195,7 +196,8 @@
       <workItem from="1685373495690" duration="17000" />
       <workItem from="1685373536751" duration="1963000" />
       <workItem from="1685783442940" duration="37000" />
-      <workItem from="1685889212057" duration="4210000" />
+      <workItem from="1685889212057" duration="4251000" />
+      <workItem from="1685974221515" duration="6166000" />
     </task>
     <task id="LOCAL-00001" summary="5.30">
       <created>1685376092745</created>
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685376092745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6.4">
+      <created>1685893457129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685893457129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +232,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.30" />
+    <MESSAGE value="6.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.4" />
   </component>
 </project>

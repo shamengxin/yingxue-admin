@@ -13,8 +13,8 @@ public class DemoController {
 
     @GetMapping
     public String demos(){
-        log.info("admins demos");
-        return "admins demos";
+        log.info("users demos");
+        return "users demos";
     }
 
 
