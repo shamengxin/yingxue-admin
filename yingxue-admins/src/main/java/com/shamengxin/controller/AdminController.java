@@ -1,16 +1,15 @@
 package com.shamengxin.controller;
 
+import com.shamengxin.dto.AdminDTO;
 import com.shamengxin.entity.Admin;
 import com.shamengxin.service.AdminService;
 import com.shamengxin.utils.JSONUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
@@ -29,6 +28,32 @@ public class AdminController {
     public AdminController(AdminService adminService, RedisTemplate redisTemplate) {
         this.adminService = adminService;
         this.redisTemplate = redisTemplate;
+    }
+
+    /**
+     * 登出
+     * @param token
+     */
+    @DeleteMapping("/tokens/{token}")
+    public void exit(@PathVariable("token") String token){
+        log.info("当前token信息：{}",token);
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        redisTemplate.delete(token);
+    }
+
+    /**
+     * 用户信息
+     * @param token
+     * @return
+     */
+    @GetMapping("/admin-user")
+    public AdminDTO admin(String token){
+        log.info("当前token信息：{}",token);
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        Admin admin = (Admin) redisTemplate.opsForValue().get(token);
+        AdminDTO adminDTO = new AdminDTO();
+        BeanUtils.copyProperties(admin,adminDTO);
+        return adminDTO;
     }
 
 
