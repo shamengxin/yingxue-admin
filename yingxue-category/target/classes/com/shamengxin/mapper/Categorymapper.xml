@@ -11,15 +11,26 @@
         <result property="deletedAt" column="deleted_at" jdbcType="TIMESTAMP"/>
     </resultMap>
 
-    <select id="queryByFirstLevel" resultMap="CategoryMap">
-        select id,
-               name,
-               parent_id,
-               created_at,
-               updated_at,
-               deleted_at
-        from category
-        where parent_id is null
+    <resultMap type="com.shamengxin.entity.Category" id="CategoriesMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <collection property="children" javaType="list" ofType="com.shamengxin.entity.Category">
+            <id property="id" column="cid" jdbcType="INTEGER"/>
+            <result property="name" column="cname" jdbcType="VARCHAR"/>
+            <result property="parentId" column="cparentId" jdbcType="INTEGER"/>
+        </collection>
+    </resultMap>
+
+    <select id="queryByFirstLevel" resultMap="CategoriesMap">
+        select c1.id,
+               c1.name,
+               c2.id cid,
+               c2.name cname,
+               c2.parent_id cparentId
+        from category c1
+        left join category c2
+        on c1.id = c2.parent_id
+        where c1.parent_id is null
     </select>
 
     <!--查询单个-->

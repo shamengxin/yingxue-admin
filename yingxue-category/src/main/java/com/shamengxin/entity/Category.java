@@ -6,8 +6,11 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
@@ -32,6 +35,7 @@ public class Category implements Serializable {
     /**
      * 父级分类id
      */
+    @JsonProperty("parent_id")
     private Integer parentId;
 
     /**
@@ -48,6 +52,17 @@ public class Category implements Serializable {
      * 
      */
     private Date deletedAt;
+
+    @TableField(exist = false)
+    private List<Category> children;
+
+    public List<Category> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<Category> children) {
+        this.children = children;
+    }
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

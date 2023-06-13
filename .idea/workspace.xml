@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.11">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/dto/AdminDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/com/shamengxin/mapper/Categorymapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/utils/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/src/main/java/com/shamengxin/utils/JSONUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/resources/com/shamengxin/mapper/Categorymapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/com/shamengxin/mapper/Categorymapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/Categorymapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/Categorymapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,43 +52,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "B:/code/yingxue-admin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f163acfa59bd3b0e263b5b69dbbfbc74",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/code/yingxue-admin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f163acfa59bd3b0e263b5b69dbbfbc74&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\code\yingxue-admin" />
@@ -219,7 +210,8 @@
       <workItem from="1686232627348" duration="5859000" />
       <workItem from="1686408739765" duration="3711000" />
       <workItem from="1686493297686" duration="5197000" />
-      <workItem from="1686580535923" duration="4641000" />
+      <workItem from="1686580535923" duration="4945000" />
+      <workItem from="1686669078313" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="5.30">
       <created>1685376092745</created>
@@ -256,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686498947446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6.12">
+      <created>1686585474347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585474347</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +279,7 @@
     <MESSAGE value="6.5" />
     <MESSAGE value="6.8" />
     <MESSAGE value="6.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.11" />
+    <MESSAGE value="6.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.12" />
   </component>
 </project>
