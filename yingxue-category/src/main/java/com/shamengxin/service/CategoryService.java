@@ -2,10 +2,8 @@ package com.shamengxin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.shamengxin.entity.Category;
-import com.shamengxin.mapper.CategoryMapper;
 
 import java.util.List;
-import java.util.PrimitiveIterator;
 
 /**
  * 分类(Category)表服务接口
@@ -20,5 +18,7 @@ public interface CategoryService extends IService<Category> {
      * @return
      */
     List<Category> queryByFirstLevel();
+
+    Category saveAndReturn(Category category);
 }
 

@@ -4,15 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.12">
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.14">
+      <change afterPath="$PROJECT_DIR$/admin-dist/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/app.3c89677c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-00c0d46f.58e1ff35.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-238c903c.3c7f5ad9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-44ae20f8.73782ea6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-7346b5ce.d00faec9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-748f773e.02eb38e6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-c681cc98.bc76f82f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-elementUI.68c70ad5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/css/chunk-libs.3dfb7769.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/fonts/element-icons.535877f5.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/fonts/element-icons.732389de.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/img/404.a57b6f31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/img/404_cloud.0f4bc32b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/app.0ebddf58.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-00c0d46f.45e727a7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-238c903c.bc9295f4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-44ae20f8.d2fbf9fd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-7346b5ce.7d6cb9dd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-748f773e.a993b93d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-c681cc98.f2a0c4cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-elementUI.95f91aca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-dist/static/js/chunk-libs.55ae50ba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-commons/target/classes/com/shamengxin/utils/JSONUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-users/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/utils/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/src/main/java/com/shamengxin/utils/JSONUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/utils/JSONUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/resources/com/shamengxin/mapper/Categorymapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/resources/com/shamengxin/mapper/Categorymapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/src/main/java/com/shamengxin/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/Categorymapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/Categorymapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/src/main/java/com/shamengxin/controller/DemoController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,9 +227,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdminCategoryApplication" />
-        <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.AdminAdminsApplication" />
+        <item itemvalue="Spring Boot.AdminGatewayApplication" />
+        <item itemvalue="Spring Boot.AdminCategoryApplication" />
         <item itemvalue="Spring Boot.AdminVideosApplication" />
         <item itemvalue="Spring Boot.AdminUsersApplication" />
       </list>
@@ -211,7 +253,9 @@
       <workItem from="1686408739765" duration="3711000" />
       <workItem from="1686493297686" duration="5197000" />
       <workItem from="1686580535923" duration="4945000" />
-      <workItem from="1686669078313" duration="2634000" />
+      <workItem from="1686669078313" duration="2957000" />
+      <workItem from="1686672067996" duration="70000" />
+      <workItem from="1686752668640" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="5.30">
       <created>1685376092745</created>
@@ -255,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686585474347</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6.13">
+      <created>1686672022624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686672022624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +331,8 @@
     <MESSAGE value="6.8" />
     <MESSAGE value="6.11" />
     <MESSAGE value="6.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.12" />
+    <MESSAGE value="6.13" />
+    <MESSAGE value="6.14" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.14" />
   </component>
 </project>

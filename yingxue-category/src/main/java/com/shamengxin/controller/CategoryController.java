@@ -4,11 +4,13 @@ package com.shamengxin.controller;
 import com.shamengxin.entity.Category;
 import com.shamengxin.service.CategoryService;
 import com.shamengxin.utils.JSONUtils;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.BooleanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -30,6 +32,34 @@ public class CategoryController {
         this.categoryService = categoryService;
     }
 
+    /**
+     * 删除类别
+     */
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+        log.info("删除的类别id：{}",id);
+        categoryService.removeById(id);
+
+    }
+
+    /**
+     * 添加类别
+     * @param category
+     * @return
+     */
+    @PostMapping
+    public Category save(@RequestBody Category category){
+        log.info("保存的类别信息:{}", JSONUtils.writeJson(category));
+        Category categoryDB = categoryService.saveAndReturn(category);
+        return categoryDB;
+    }
+
+    /**
+     * 更新类别
+     * @param id
+     * @param category
+     * @return
+     */
     @PatchMapping("/{id}")
     public Category update(@PathVariable("id") Integer id, @RequestBody Category category) {
         log.info("更新的类别id：{}", id);

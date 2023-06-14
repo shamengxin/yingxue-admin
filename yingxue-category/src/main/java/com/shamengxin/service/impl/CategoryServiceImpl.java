@@ -7,6 +7,7 @@ import com.shamengxin.service.CategoryService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -25,9 +26,19 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
         this.categoryMapper = categoryMapper;
     }
 
+
     @Override
     public List<Category> queryByFirstLevel() {
         return categoryMapper.queryByFirstLevel();
+    }
+
+    @Override
+    public Category saveAndReturn(Category category) {
+        Date date = new Date();
+        category.setCreatedAt(date);
+        category.setUpdatedAt(date);
+        categoryMapper.insert(category);
+        return category;
     }
 }
 
