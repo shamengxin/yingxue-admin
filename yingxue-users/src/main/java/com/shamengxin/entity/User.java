@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
@@ -44,6 +46,7 @@ public class User implements Serializable {
     /**
      * 是否绑定手机号
      */
+    @JsonProperty("phone_linked")
     private Integer phoneLinked;
 
     /**
@@ -54,6 +57,7 @@ public class User implements Serializable {
     /**
      * 是否绑定微信
      */
+    @JsonProperty("wechat_linked")
     private Integer wechatLinked;
 
     /**
