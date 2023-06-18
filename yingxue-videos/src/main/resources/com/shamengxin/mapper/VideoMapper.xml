@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shamengxin.mapper.VideoMapper">
+
+    <resultMap id="VideoMap" type="com.shamengxin.entity.Video">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="intro" column="intro" jdbcType="VARCHAR"/>
+        <result property="uid" column="uid" jdbcType="INTEGER"/>
+        <result property="cover" column="cover" jdbcType="VARCHAR"/>
+        <result property="link" column="link" jdbcType="VARCHAR"/>
+        <result property="categoryId" column="category_id" jdbcType="INTEGER"/>
+        <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+        <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP"/>
+        <result property="deletedAt" column="deleted_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <resultMap id="VideoCategoryUserMap" type="com.shamengxin.entity.Video" extends="VideoMap">
+        <!--添加类别-->
+        <result property="category" column="category" jdbcType="VARCHAR"/>
+        <!--用户-->
+        <association property="uploader" javaType="com.shamengxin.entity.User">
+            <id property="id" column="userid" jdbcType="INTEGER"/>
+            <result property="name" column="username" jdbcType="VARCHAR"/>
+            <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
+            <result property="intro" column="intro" jdbcType="VARCHAR"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="phoneLinked" column="phone_linked" jdbcType="TINYINT"/>
+            <result property="openid" column="openid" jdbcType="VARCHAR"/>
+            <result property="wechatLinked" column="wechat_linked" jdbcType="TINYINT"/>
+            <result property="followingCount" column="following_count" jdbcType="INTEGER"/>
+            <result property="followersCount" column="followers_count" jdbcType="INTEGER"/>
+            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP"/>
+            <result property="deletedAt" column="deleted_at" jdbcType="TIMESTAMP"/>
+        </association>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,title,intro,
+        uid,cover,link,
+        category_id,created_at,updated_at,
+        deleted_at
+    </sql>
+
+    <sql id="keyWordFields">
+        <where>
+            <if test="id != null and id != ''">
+                and v.id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and v.title like concat('%',#{name},'%')
+            </if>
+            <if test="categoryId != null and categoryId != ''">
+                and c.id = #{categoryId}
+            </if>
+            <if test="uploaderName != null and uploaderName != ''">
+                and c.name = #{uploaderName}
+            </if>
+        </where>
+    </sql>
+
+    <select id="findTotalCountsByKeyworlds" resultType="java.lang.Long">
+        select count(v.id)
+        from video v
+        left join category c
+        on v.category_id=c.id
+        left join user u
+        on v.uid = u.id
+        <include refid="keyWordFields"/>
+
+    </select>
+    <select id="findAllByKeyworlds" resultMap="VideoCategoryUserMap">
+        select
+            v.id,v.title,v.intro,v.uid,v.cover,v.link,v.category_id,v.created_at,v.updated_at,v.deleted_at,
+            c.name category,
+            u.id userid,u.name username,u.avatar,u.intro,u.phone,u.phone_linked,u.openid,u.wechat_linked,
+                        u.following_count,u.followers_count,u.created_at,u.updated_at,u.deleted_at
+        from video v
+        left join category c
+        on v.category_id=c.id
+        left join user u
+        on v.uid = u.id
+        <include refid="keyWordFields"/>
+        limit #{start},#{rows}
+    </select>
+</mapper>

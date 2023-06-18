@@ -34,7 +34,7 @@ spring:
         - id: videos_router
           uri: lb://API-VIDEOS
           predicates:
-            - Path=/videos/demos
+            - Path=/admin/videos/**
           filters:
             - StripPrefix=1
       # 跨域配置处理
