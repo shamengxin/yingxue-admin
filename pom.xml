@@ -27,6 +27,7 @@
         <mysql.version>5.1.47</mysql.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
         <druid.version>1.2.13</druid.version>
+        <hutool.version>5.7.17</hutool.version>
     </properties>
 
     <!--springboot父项目-->
@@ -85,6 +86,12 @@
                 <version>${druid.version}</version>
             </dependency>
 
+            <!--hutool-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

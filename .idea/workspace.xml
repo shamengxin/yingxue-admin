@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.15">
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/controller/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/entity/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/mapper/VideoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/service/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-videos/src/main/resources/com/shamengxin/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.">
+      <change afterPath="$PROJECT_DIR$/yingxue-commons/src/main/java/com/shamengxin/constants/RedisPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/config/GlobalExceptionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/exceptions/IllegalTokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/filter/factory/TokenGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d70aae-9ed1-46ab-bb01-1a2d2737b103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d70aae-9ed1-46ab-bb01-1a2d2737b103.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-videos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-videos/src/main/java/com/shamengxin/controller/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-videos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-videos/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-videos/target/classes/com/shamengxin/controller/DemoController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +78,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "B:/code/yingxue-admin",
+    "last_opened_file_path": "B:/code/yingxue-admin/yingxue-gatetway/src/main/java/com/shamengxin/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,11 +99,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\code\yingxue-admin\yingxue-gatetway\src\main\java\com\shamengxin\config" />
       <recent name="B:\code\yingxue-admin" />
       <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\java\com\shamengxin" />
       <recent name="B:\code\yingxue-admin\yingxue-users\src\main\java\com\shamengxin" />
       <recent name="B:\code\yingxue-admin\yingxue-category\src\main\java\com\shamengxin" />
-      <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\resources\com\shamengxin" />
@@ -200,8 +200,8 @@
       <list>
         <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.AdminVideosApplication" />
-        <item itemvalue="Spring Boot.AdminCategoryApplication" />
         <item itemvalue="Spring Boot.AdminUsersApplication" />
+        <item itemvalue="Spring Boot.AdminCategoryApplication" />
         <item itemvalue="Spring Boot.AdminAdminsApplication" />
       </list>
     </recent_temporary>
@@ -230,7 +230,11 @@
       <workItem from="1686758616524" duration="956000" />
       <workItem from="1686842026803" duration="3632000" />
       <workItem from="1686920127184" duration="12000" />
-      <workItem from="1687096981321" duration="6683000" />
+      <workItem from="1687096981321" duration="6817000" />
+      <workItem from="1687188019293" duration="1055000" />
+      <workItem from="1687189241128" duration="710000" />
+      <workItem from="1687189972884" duration="17000" />
+      <workItem from="1687270062481" duration="5530000" />
     </task>
     <task id="LOCAL-00001" summary="5.30">
       <created>1685376092745</created>
@@ -295,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686845617371</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="6.19">
+      <created>1687104423946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687104423946</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +334,8 @@
     <MESSAGE value="6.13" />
     <MESSAGE value="6.14" />
     <MESSAGE value="6.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.15" />
+    <MESSAGE value="6.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
