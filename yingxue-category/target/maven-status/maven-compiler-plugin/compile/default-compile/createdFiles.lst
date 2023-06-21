@@ -1,0 +1,6 @@
+com\shamengxin\entity\Category.class
+com\shamengxin\service\impl\CategoryServiceImpl.class
+com\shamengxin\mapper\CategoryMapper.class
+com\shamengxin\service\CategoryService.class
+com\shamengxin\controller\CategoryController.class
+com\shamengxin\AdminCategoryApplication.class

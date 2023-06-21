@@ -4,22 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.">
-      <change afterPath="$PROJECT_DIR$/yingxue-commons/src/main/java/com/shamengxin/constants/RedisPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/config/GlobalExceptionConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/exceptions/IllegalTokenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/java/com/shamengxin/filter/factory/TokenGatewayFilterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d70aae-9ed1-46ab-bb01-1a2d2737b103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1d70aae-9ed1-46ab-bb01-1a2d2737b103.xml" afterDir="false" />
+    <list default="true" id="a8f77a40-4033-48b9-b6ed-a341873d2dcc" name="更改" comment="6.20">
+      <change afterPath="$PROJECT_DIR$/images/admins/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/admins/yingxue-admins-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/category/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/category/yingxue-category-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gateway/yingxue-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/users/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/users/yingxue-users-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/videos/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/videos/yingxue-videos-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-dist/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin-dist/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-dist/static/js/app.0ebddf58.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-dist/static/js/app.0ebddf58.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/src/main/java/com/shamengxin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/AdminAdminsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/AdminAdminsApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/dto/AdminDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/dto/AdminDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/entity/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/entity/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-admins/target/classes/com/shamengxin/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/AdminCategoryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/AdminCategoryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-category/target/classes/com/shamengxin/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-commons/target/classes/com/shamengxin/utils/JSONUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-commons/target/classes/com/shamengxin/utils/JSONUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-videos/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yingxue-videos/target/classes/com/shamengxin/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-gatetway/target/classes/com/shamengxin/AdminGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-gatetway/target/classes/com/shamengxin/AdminGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/AdminUsersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/AdminUsersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-users/target/classes/com/shamengxin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-videos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yingxue-videos/target/classes/com/shamengxin/AdminVideosApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yingxue-videos/target/classes/com/shamengxin/AdminVideosApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +78,7 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="13" />
+    <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="2QTNDa6Do9Ilw8Tekr3GnhNEBFd" />
@@ -78,7 +106,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "B:/code/yingxue-admin/yingxue-gatetway/src/main/java/com/shamengxin/config",
+    "last_opened_file_path": "B:/code/yingxue-admin/images/videos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\code\yingxue-admin\yingxue-gatetway\src\main\java\com\shamengxin\config" />
-      <recent name="B:\code\yingxue-admin" />
-      <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\java\com\shamengxin" />
-      <recent name="B:\code\yingxue-admin\yingxue-users\src\main\java\com\shamengxin" />
-      <recent name="B:\code\yingxue-admin\yingxue-category\src\main\java\com\shamengxin" />
+      <recent name="B:\code\yingxue-admin\images\videos" />
+      <recent name="B:\code\yingxue-admin\images\users" />
+      <recent name="B:\code\yingxue-admin\images\gateway" />
+      <recent name="B:\code\yingxue-admin\images\category" />
+      <recent name="B:\code\yingxue-admin\images\admins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\code\yingxue-admin\yingxue-videos\src\main\resources\com\shamengxin" />
@@ -198,10 +226,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.AdminVideosApplication" />
         <item itemvalue="Spring Boot.AdminUsersApplication" />
         <item itemvalue="Spring Boot.AdminCategoryApplication" />
+        <item itemvalue="Spring Boot.AdminGatewayApplication" />
         <item itemvalue="Spring Boot.AdminAdminsApplication" />
       </list>
     </recent_temporary>
@@ -234,7 +262,9 @@
       <workItem from="1687188019293" duration="1055000" />
       <workItem from="1687189241128" duration="710000" />
       <workItem from="1687189972884" duration="17000" />
-      <workItem from="1687270062481" duration="5530000" />
+      <workItem from="1687270062481" duration="7036000" />
+      <workItem from="1687277642592" duration="30000" />
+      <workItem from="1687355867224" duration="4999000" />
     </task>
     <task id="LOCAL-00001" summary="5.30">
       <created>1685376092745</created>
@@ -306,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687104423946</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="6.20">
+      <created>1687276233530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687276233530</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +372,8 @@
     <MESSAGE value="6.14" />
     <MESSAGE value="6.15" />
     <MESSAGE value="6.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.19" />
+    <MESSAGE value="6.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,6 @@
+com\shamengxin\exceptions\IllegalTokenException.class
+com\shamengxin\filter\factory\TokenGatewayFilterFactory.class
+com\shamengxin\config\GlobalExceptionConfiguration.class
+com\shamengxin\filter\factory\TokenGatewayFilterFactory$1.class
+com\shamengxin\filter\factory\TokenGatewayFilterFactory$Config.class
+com\shamengxin\AdminGatewayApplication.class

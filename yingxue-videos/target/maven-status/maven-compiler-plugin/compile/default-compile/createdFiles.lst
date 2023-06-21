@@ -1,0 +1,7 @@
+com\shamengxin\service\impl\VideoServiceImpl.class
+com\shamengxin\controller\VideoController.class
+com\shamengxin\entity\Video.class
+com\shamengxin\entity\User.class
+com\shamengxin\AdminVideosApplication.class
+com\shamengxin\mapper\VideoMapper.class
+com\shamengxin\service\VideoService.class

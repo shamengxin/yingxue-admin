@@ -1,0 +1,7 @@
+com\shamengxin\AdminAdminsApplication.class
+com\shamengxin\service\AdminService.class
+com\shamengxin\mapper\AdminMapper.class
+com\shamengxin\controller\AdminController.class
+com\shamengxin\service\impl\AdminServiceImpl.class
+com\shamengxin\dto\AdminDTO.class
+com\shamengxin\entity\Admin.class

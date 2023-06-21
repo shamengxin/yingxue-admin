@@ -1,0 +1,6 @@
+com\shamengxin\service\impl\UserServiceImpl.class
+com\shamengxin\AdminUsersApplication.class
+com\shamengxin\mapper\UserMapper.class
+com\shamengxin\entity\User.class
+com\shamengxin\service\UserService.class
+com\shamengxin\controller\UserController.class
